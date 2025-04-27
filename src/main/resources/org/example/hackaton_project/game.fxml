@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hackaton_project.GamePage">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <StackPane prefHeight="600.0" prefWidth="800.0">
+      <children>
+         <Canvas fx:id="gameScreen" height="600.0" width="800.0" />
+         <Label fx:id="textBox" alignment="CENTER" prefHeight="250.0" prefWidth="800.0" styleClass="textbox" stylesheets="@style.css" text="Label" StackPane.alignment="BOTTOM_CENTER">
+            <font>
+               <Font name="Calibri" size="35.0" />
+            </font>
+         </Label>
+      </children>
+   </StackPane>
+
+    <Label fx:id="welcomeText" />
+</VBox>
